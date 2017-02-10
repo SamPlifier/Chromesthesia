@@ -6,9 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        // <div className="App-header">
-        //   <img src={logo} className="App-logo" alt="logo" />
-        // </div>
+        <div className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
         <h1 className="App-intro">
           Can chromesthesia be acquired?
         </h1>
@@ -54,7 +54,7 @@ function red(){
   document.body.style.background = '#e00000';
   setTimeout(white, 1000);
 }
-function red2(){//this makes the same color as the c note but plays a note an octave higher
+function red2(){//this makes the same color as the c note but plays an octave higher
   document.getElementById('12').play();
   document.body.style.background = '#e00000';
   setTimeout(white, 1000);
