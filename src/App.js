@@ -54,7 +54,7 @@ function red(){
   document.body.style.background = '#e00000';
   setTimeout(white, 1000);
 }
-function red2(){//this makes the same color as the c note but plays an octave higher
+function red2(){//this makes the same color as the c note but plays a note an octave higher
   document.getElementById('12').play();
   document.body.style.background = '#e00000';
   setTimeout(white, 1000);
