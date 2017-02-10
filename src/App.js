@@ -8,7 +8,6 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>First project with ReactJS</h2>
         </div>
         <h1 className="App-intro">
           Can chromesthesia be acquired?
@@ -62,7 +61,7 @@ function red2(){//this makes the same color as the c note but plays an octave hi
 }
 function redOrange(){
   document.getElementById('1').play();
-  document.body.style.background = '#ff0000';
+  document.body.style.background = '#ff2900';
   setTimeout(white, 1000);
 }
 function orange(){
@@ -97,7 +96,7 @@ function greenBlue(){
 }
 function blue(){
   document.getElementById('8').play();
-  document.body.style.background = '#191d9b';
+  document.body.style.background = '#009afd';
   setTimeout(white, 1000);
 }
 function blueViolet(){
